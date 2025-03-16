@@ -22,6 +22,10 @@ This is a project for testing the HTTP protocol.
    ```bash
    python http.py
    ```
+5. Open a web browser and visit `http://127.0.0.1:81/` to see the results or
+   Open a web browser and visit `http://127.0.0.1:81/a` to see the results or
+   Open a web browser and visit `http://127.0.0.1:81/a/b.html` to see the results or
+   Open a web browser and visit `http://127.0.0.1:81/a/c.html` to see the results.
 
 ## Usage Guide
 1. In the `http.py` file, you can see the `handle_client` function, which is used to handle client requests.
