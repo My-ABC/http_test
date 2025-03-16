@@ -12,13 +12,13 @@ def handle_client(c, addr):
         file = headers[0].split()[1].decode()
         
         if file == "/":
-            file = "C:/Users/MK/Documents/http_test/index.html"
+            file = "index.html"
         elif file == "/a":
-            file = "C:/Users/MK/Documents/http_test/a.html"
+            file = "a.html"
         elif file == "/a/b.html":
-            file = "C:/Users/MK/Documents/http_test/a/b.html"
+            file = "a/b.html"
         elif file == "/a/c.html":
-            file = "C:/Users/MK/Documents/http_test/a/c.html"
+            file = "a/c.html"
         
         try:
             with open(file, "rb") as f:
